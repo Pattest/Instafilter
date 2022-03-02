@@ -14,6 +14,7 @@
 		27184E4827CCC79F004ACFDD /* InstafilterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27184E4727CCC79F004ACFDD /* InstafilterTests.swift */; };
 		27184E5227CCC79F004ACFDD /* InstafilterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27184E5127CCC79F004ACFDD /* InstafilterUITests.swift */; };
 		27184E5427CCC79F004ACFDD /* InstafilterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27184E5327CCC79F004ACFDD /* InstafilterUITestsLaunchTests.swift */; };
+		27E2DE6527CF658300A79EA9 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E2DE6427CF658300A79EA9 /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		27184E4D27CCC79F004ACFDD /* InstafilterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstafilterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27184E5127CCC79F004ACFDD /* InstafilterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstafilterUITests.swift; sourceTree = "<group>"; };
 		27184E5327CCC79F004ACFDD /* InstafilterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstafilterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		27E2DE6427CF658300A79EA9 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				27184E3827CCC79E004ACFDD /* ContentView.swift */,
+				27E2DE6427CF658300A79EA9 /* ImagePicker.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27E2DE6527CF658300A79EA9 /* ImagePicker.swift in Sources */,
 				27184E3927CCC79E004ACFDD /* ContentView.swift in Sources */,
 				27184E3727CCC79E004ACFDD /* InstafilterApp.swift in Sources */,
 			);
