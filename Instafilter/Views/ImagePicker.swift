@@ -9,9 +9,6 @@ import SwiftUI
 import PhotosUI
 
 struct ImagePicker: UIViewControllerRepresentable {
-
-    typealias UIViewControllerType = PHPickerViewController
-
     @Binding var image: UIImage?
 
     func makeUIViewController(context: Context) -> PHPickerViewController {
