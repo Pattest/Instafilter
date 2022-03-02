@@ -94,8 +94,8 @@
 		27184E3527CCC79E004ACFDD /* Instafilter */ = {
 			isa = PBXGroup;
 			children = (
+				27E2DE6727CF658E00A79EA9 /* Views */,
 				27184E3627CCC79E004ACFDD /* InstafilterApp.swift */,
-				27184E3827CCC79E004ACFDD /* ContentView.swift */,
 				27184E3A27CCC79F004ACFDD /* Assets.xcassets */,
 				27184E3C27CCC79F004ACFDD /* Preview Content */,
 			);
@@ -125,6 +125,14 @@
 				27184E5327CCC79F004ACFDD /* InstafilterUITestsLaunchTests.swift */,
 			);
 			path = InstafilterUITests;
+			sourceTree = "<group>";
+		};
+		27E2DE6727CF658E00A79EA9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				27184E3827CCC79E004ACFDD /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
