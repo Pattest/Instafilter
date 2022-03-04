@@ -14,6 +14,7 @@
 		27184E4827CCC79F004ACFDD /* InstafilterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27184E4727CCC79F004ACFDD /* InstafilterTests.swift */; };
 		27184E5227CCC79F004ACFDD /* InstafilterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27184E5127CCC79F004ACFDD /* InstafilterUITests.swift */; };
 		27184E5427CCC79F004ACFDD /* InstafilterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27184E5327CCC79F004ACFDD /* InstafilterUITestsLaunchTests.swift */; };
+		274BEDEB27D2407D004B5CE3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 274BEDEA27D2407D004B5CE3 /* README.md */; };
 		27E2DE6527CF658300A79EA9 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E2DE6427CF658300A79EA9 /* ImagePicker.swift */; };
 		27E2DE6927CF8E1F00A79EA9 /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E2DE6827CF8E1F00A79EA9 /* ImageSaver.swift */; };
 /* End PBXBuildFile section */
@@ -46,6 +47,7 @@
 		27184E4D27CCC79F004ACFDD /* InstafilterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstafilterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27184E5127CCC79F004ACFDD /* InstafilterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstafilterUITests.swift; sourceTree = "<group>"; };
 		27184E5327CCC79F004ACFDD /* InstafilterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstafilterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		274BEDEA27D2407D004B5CE3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = Instafilter/README.md; sourceTree = SOURCE_ROOT; };
 		27E2DE6427CF658300A79EA9 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		27E2DE6827CF8E1F00A79EA9 /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -99,9 +101,11 @@
 			isa = PBXGroup;
 			children = (
 				27E2DE6727CF658E00A79EA9 /* Views */,
+				274BEDEC27D24082004B5CE3 /* Tools */,
 				27184E3627CCC79E004ACFDD /* InstafilterApp.swift */,
 				27184E3A27CCC79F004ACFDD /* Assets.xcassets */,
 				27184E3C27CCC79F004ACFDD /* Preview Content */,
+				274BEDEA27D2407D004B5CE3 /* README.md */,
 			);
 			path = Instafilter;
 			sourceTree = "<group>";
@@ -131,12 +135,19 @@
 			path = InstafilterUITests;
 			sourceTree = "<group>";
 		};
+		274BEDEC27D24082004B5CE3 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				27E2DE6827CF8E1F00A79EA9 /* ImageSaver.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		27E2DE6727CF658E00A79EA9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				27184E3827CCC79E004ACFDD /* ContentView.swift */,
 				27E2DE6427CF658300A79EA9 /* ImagePicker.swift */,
-				27E2DE6827CF8E1F00A79EA9 /* ImageSaver.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -245,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				274BEDEB27D2407D004B5CE3 /* README.md in Resources */,
 				27184E3E27CCC79F004ACFDD /* Preview Assets.xcassets in Resources */,
 				27184E3B27CCC79F004ACFDD /* Assets.xcassets in Resources */,
 			);
